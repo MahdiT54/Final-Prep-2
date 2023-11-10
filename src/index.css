@@ -126,3 +126,23 @@ p {
 .post__search--label {
   padding-right: 8px;
 }
+
+.home__load--icon {
+  color: purple;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  animation: rotate 600ms infinite linear;
+  width: 50px;
+  height: 50px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
